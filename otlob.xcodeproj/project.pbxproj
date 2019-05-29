@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D07CF2D2294DAF5004A27CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D07CF2C2294DAF5004A27CC /* GoogleService-Info.plist */; };
 		5D0BFC6F2292BE6300221F2B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0BFC6E2292BE6300221F2B /* loginViewController.swift */; };
+		5D9C929E229F3AD700F6EF1D /* test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C929D229F3AD700F6EF1D /* test2ViewController.swift */; };
 		5DA7652D2291703A002A4A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7652C2291703A002A4A3A /* AppDelegate.swift */; };
 		5DA7652F2291703A002A4A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7652E2291703A002A4A3A /* ViewController.swift */; };
 		5DA765322291703A002A4A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA765302291703A002A4A3A /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		5D07CF2C2294DAF5004A27CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5D0BFC6E2292BE6300221F2B /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		5D9C929D229F3AD700F6EF1D /* test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
 		5DA765292291703A002A4A3A /* otlob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otlob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA7652C2291703A002A4A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DA7652E2291703A002A4A3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				5DFCEDB0229D4A1B0031650A /* HomeViewController.swift */,
 				5DC94F5B229D62AE00C84FEC /* OrdersViewController.swift */,
 				83FFFCA6229F320700C5D6CD /* testcontroller.swift */,
+				5D9C929D229F3AD700F6EF1D /* test2ViewController.swift */,
 			);
 			path = otlob;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				5DA7652F2291703A002A4A3A /* ViewController.swift in Sources */,
 				83FFFCA7229F320700C5D6CD /* testcontroller.swift in Sources */,
 				5DFCEDAF229C15300031650A /* Language.swift in Sources */,
+				5D9C929E229F3AD700F6EF1D /* test2ViewController.swift in Sources */,
 				5DA7652D2291703A002A4A3A /* AppDelegate.swift in Sources */,
 				5D0BFC6F2292BE6300221F2B /* loginViewController.swift in Sources */,
 			);

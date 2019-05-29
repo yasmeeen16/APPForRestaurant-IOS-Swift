@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>391126007711-sq5rglra8klb2dk88ejovdfai2vbh8uh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.391126007711-sq5rglra8klb2dk88ejovdfai2vbh8uh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCVamaBAsH2_t4h5jfMQjL6CTdVwglrmtI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>391126007711</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ITI.otlob</string>
+	<key>PROJECT_ID</key>
+	<string>otlob-12720</string>
+	<key>STORAGE_BUCKET</key>
+	<string>otlob-12720.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:391126007711:ios:5a49d218102c6e25</string>
+	<key>DATABASE_URL</key>
+	<string>https://otlob-12720.firebaseio.com</string>
+</dict>
+</plist>

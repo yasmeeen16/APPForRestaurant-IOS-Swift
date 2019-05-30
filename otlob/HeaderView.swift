@@ -26,8 +26,14 @@ class HeaderView: UIView {
     
     lazy var btn : UIButton = {
         let btn = UIButton(frame: CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: self.frame.width , height: self.frame.height))
-        btn.backgroundColor = #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1)
-        btn.titleLabel?.textColor = UIColor.white
+        
+              btn.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        btn.setTitleColor(UIColor.darkGray, for: .normal)        //btn.titleLabel?.textColor = UIColor.white
+        
+        var lineView = UIView(frame: CGRect(x: 0, y: 0, width: btn.frame.size.width, height: 2))
+        lineView.backgroundColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
+        btn.addSubview(lineView)
+        
         btn.addTarget(self, action: #selector(onClickHeaderView), for: .touchUpInside)
         return btn
     }()

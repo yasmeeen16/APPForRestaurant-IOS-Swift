@@ -14,7 +14,7 @@ class CollabseViewController: UIViewController {
     @IBOutlet weak var tabelView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tabelView.tableFooterView = UIView()
         // Do any additional setup after loading the view.
     }
 
@@ -41,19 +41,38 @@ extension CollabseViewController :UITableViewDelegate,UITableViewDataSource{
 
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = HeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 40))
+        headerView.delegate = self
+        headerView.secindex = section
+        headerView.btn.setTitle(data[section].HeaderName, for: .normal)
+        
         return headerView
     }
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 6
+        return data.count
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 40
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        if data[section].isExpandable{
+            return data[section].subtype.count
+        }else {
+            return 0
+        }
+       
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cells")
-        cell?.textLabel?.text = "yasmeen"
+        cell?.textLabel?.text = data[indexPath.row].subtype[indexPath.row]
         return cell!
-    }}
+    }
+    
+}
+extension CollabseViewController: headerDelegate{
+    func callHeader(idx: Int) {
+        data[idx].isExpandable = !data[idx].isExpandable
+        tabelView.reloadSections([idx], with: .automatic)
+    }
+    
+    
+}

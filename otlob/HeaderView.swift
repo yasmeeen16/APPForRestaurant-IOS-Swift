@@ -7,8 +7,14 @@
 //
 
 import UIKit
-
+protocol  headerDelegate {
+    func callHeader(idx : Int)
+}
 class HeaderView: UIView {
+    var secindex: Int?
+    var delegate : headerDelegate?
+    
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.addSubview(btn)
@@ -27,6 +33,8 @@ class HeaderView: UIView {
     }()
     
     @objc func onClickHeaderView(){
-        print("header view")
+        if let idx = secindex{
+            delegate?.callHeader(idx: idx)
+        }
     }
 }

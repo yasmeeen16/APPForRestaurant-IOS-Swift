@@ -63,7 +63,7 @@ extension CollabseViewController :UITableViewDelegate,UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cells")
-        cell?.textLabel?.text = data[indexPath.row].subtype[indexPath.row]
+        //cell?.textLabel?.text = data[indexPath.row].subtype[indexPath.row]
         return cell!
     }
     

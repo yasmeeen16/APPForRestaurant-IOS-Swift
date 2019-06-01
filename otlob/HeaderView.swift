@@ -30,7 +30,7 @@ class HeaderView: UIView {
               btn.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         btn.setTitleColor(UIColor.darkGray, for: .normal)        //btn.titleLabel?.textColor = UIColor.white
         
-        var lineView = UIView(frame: CGRect(x: 0, y: 0, width: btn.frame.size.width, height: 2))
+        var lineView = UIView(frame: CGRect(x: 0, y: btn.frame.height-2, width: btn.frame.size.width, height: 2))
         lineView.backgroundColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
         btn.addSubview(lineView)
         

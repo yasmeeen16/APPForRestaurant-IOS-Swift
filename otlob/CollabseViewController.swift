@@ -1,5 +1,5 @@
 //
-//  CollabseViewController.swift
+//  CollabseViewController./Users/yasmeen/Downloads/otlobios/otlob/CollabseViewController.swiftswift
 //  otlob
 //
 //  Created by yasmeen on 5/30/19.
@@ -10,6 +10,7 @@ import UIKit
 
 class CollabseViewController: UIViewController {
 
+ 
     var data = [DataModelOfCollabseTabel(HeaderName: "the most sels", subtype:["chesses1","chesses2","chesses3"], isExpandable: false ),DataModelOfCollabseTabel(HeaderName: "the most sels1", subtype:["chesses1","chesses2","chesses3"], isExpandable: false ),DataModelOfCollabseTabel(HeaderName: "the most sels2", subtype:["chesses1","chesses2","chesses3"], isExpandable: false )]
     @IBOutlet weak var tabelView: UITableView!
     override func viewDidLoad() {
@@ -22,17 +23,7 @@ class CollabseViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 extension CollabseViewController :UITableViewDelegate,UITableViewDataSource{
@@ -40,7 +31,7 @@ extension CollabseViewController :UITableViewDelegate,UITableViewDataSource{
     
 
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = HeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 40))
+        let headerView = HeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 50))
         headerView.delegate = self
         headerView.secindex = section
         headerView.btn.setTitle(data[section].HeaderName, for: .normal)
@@ -51,7 +42,7 @@ extension CollabseViewController :UITableViewDelegate,UITableViewDataSource{
         return data.count
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 40
+        return 50
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if data[section].isExpandable{

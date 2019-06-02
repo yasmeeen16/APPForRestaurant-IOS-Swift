@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D07CF2D2294DAF5004A27CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D07CF2C2294DAF5004A27CC /* GoogleService-Info.plist */; };
 		5D0BFC6F2292BE6300221F2B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0BFC6E2292BE6300221F2B /* loginViewController.swift */; };
 		5D9C929E229F3AD700F6EF1D /* test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C929D229F3AD700F6EF1D /* test2ViewController.swift */; };
 		5D9C92A022A01B4200F6EF1D /* DataModelOfCollabseTabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C929F22A01B4200F6EF1D /* DataModelOfCollabseTabel.swift */; };
 		5D9C92A222A01D8400F6EF1D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C92A122A01D8400F6EF1D /* HeaderView.swift */; };
 		5D9C92A422A0240300F6EF1D /* CollabseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C92A322A0240300F6EF1D /* CollabseViewController.swift */; };
 		5D9C92A622A2CE2700F6EF1D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C92A522A2CE2700F6EF1D /* HomeTableViewController.swift */; };
+		5D9C92A822A3347E00F6EF1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C92A722A3347E00F6EF1D /* GoogleService-Info.plist */; };
+		5D9C92AA22A396B700F6EF1D /* AddToCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C92A922A396B700F6EF1D /* AddToCardViewController.swift */; };
 		5DA7652D2291703A002A4A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7652C2291703A002A4A3A /* AppDelegate.swift */; };
 		5DA7652F2291703A002A4A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7652E2291703A002A4A3A /* ViewController.swift */; };
 		5DA765322291703A002A4A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA765302291703A002A4A3A /* Main.storyboard */; };
@@ -27,13 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D07CF2C2294DAF5004A27CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5D0BFC6E2292BE6300221F2B /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		5D9C929D229F3AD700F6EF1D /* test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
 		5D9C929F22A01B4200F6EF1D /* DataModelOfCollabseTabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelOfCollabseTabel.swift; sourceTree = "<group>"; };
 		5D9C92A122A01D8400F6EF1D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		5D9C92A322A0240300F6EF1D /* CollabseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabseViewController.swift; sourceTree = "<group>"; };
 		5D9C92A522A2CE2700F6EF1D /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		5D9C92A722A3347E00F6EF1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D9C92A922A396B700F6EF1D /* AddToCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCardViewController.swift; sourceTree = "<group>"; };
 		5DA765292291703A002A4A3A /* otlob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otlob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA7652C2291703A002A4A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DA7652E2291703A002A4A3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,8 +92,8 @@
 				5DA765352291703A002A4A3A /* LaunchScreen.storyboard */,
 				5DA765382291703A002A4A3A /* Info.plist */,
 				5D0BFC6E2292BE6300221F2B /* loginViewController.swift */,
-				5D07CF2C2294DAF5004A27CC /* GoogleService-Info.plist */,
 				5DFCEDAE229C15300031650A /* Language.swift */,
+				5D9C92A722A3347E00F6EF1D /* GoogleService-Info.plist */,
 				5DFCEDB0229D4A1B0031650A /* HomeViewController.swift */,
 				5DC94F5B229D62AE00C84FEC /* OrdersViewController.swift */,
 				83FFFCA6229F320700C5D6CD /* testcontroller.swift */,
@@ -100,6 +102,7 @@
 				5D9C92A122A01D8400F6EF1D /* HeaderView.swift */,
 				5D9C92A322A0240300F6EF1D /* CollabseViewController.swift */,
 				5D9C92A522A2CE2700F6EF1D /* HomeTableViewController.swift */,
+				5D9C92A922A396B700F6EF1D /* AddToCardViewController.swift */,
 			);
 			path = otlob;
 			sourceTree = "<group>";
@@ -183,8 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA765372291703A002A4A3A /* LaunchScreen.storyboard in Resources */,
-				5D07CF2D2294DAF5004A27CC /* GoogleService-Info.plist in Resources */,
 				5DA765342291703A002A4A3A /* Assets.xcassets in Resources */,
+				5D9C92A822A3347E00F6EF1D /* GoogleService-Info.plist in Resources */,
 				5DA765322291703A002A4A3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +249,7 @@
 				5D9C92A422A0240300F6EF1D /* CollabseViewController.swift in Sources */,
 				5DFCEDB1229D4A1B0031650A /* HomeViewController.swift in Sources */,
 				5DC94F5C229D62AE00C84FEC /* OrdersViewController.swift in Sources */,
+				5D9C92AA22A396B700F6EF1D /* AddToCardViewController.swift in Sources */,
 				5DA7652F2291703A002A4A3A /* ViewController.swift in Sources */,
 				83FFFCA7229F320700C5D6CD /* testcontroller.swift in Sources */,
 				5D9C92A222A01D8400F6EF1D /* HeaderView.swift in Sources */,

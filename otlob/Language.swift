@@ -13,16 +13,30 @@ class Language: UIViewController {
     @IBOutlet weak var Englishbtn: UIButton!
     @IBOutlet weak var ArabicBtn: UIButton!
     @IBOutlet weak var menuoutlet: UIButton!
-    @IBOutlet weak var UAEOutlet: UIButton!
-    @IBOutlet weak var QatarOutlet: UIButton!
-    @IBOutlet weak var KwaitOutlet: UIButton!
-    
-    
+ 
+    @IBOutlet var mnuitem :[UIButton]!
     //actions
     @IBAction func MenuAction(_ sender: Any) {
-        print("helloooo")
+        mnuitem.forEach { (button ) in
+            UIView.animate(withDuration: 0.25, animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+            
+        }
     }
     
+    @IBAction func menuitem(_ sender: Any) {
+        menuoutlet.titleLabel?.text = (sender as AnyObject).titleLabel??.text
+        
+        mnuitem.forEach { (button ) in
+            UIView.animate(withDuration: 0.25, animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+        }
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -57,7 +57,11 @@ extension CollabseViewController :UITableViewDelegate,UITableViewDataSource{
         //cell?.textLabel?.text = data[indexPath.row].subtype[indexPath.row]
         return cell!
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "Showadtocard", sender: self)
+    }
     
+
 }
 extension CollabseViewController: headerDelegate{
     func callHeader(idx: Int) {

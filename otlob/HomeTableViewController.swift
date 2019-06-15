@@ -8,6 +8,8 @@
 
 import UIKit
 import LBTAComponents
+import Firebase
+import FirebaseDatabase
 
 struct DataCell {
     let image : UIImage?
@@ -16,10 +18,59 @@ struct DataCell {
 }
 
 class HomeTableViewController: UITableViewController {
-    var data = [DataCell]()
+    //var data = [DataCell]()
+    var ref: DatabaseReference!
+    @IBOutlet var hometabelview: UITableView!
+    var mydata = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        hometabelview.delegate = self
+        hometabelview.dataSource = self
+        //set the firebase refrence
+        ref = Database.database().reference()
+        
+        ref.child("category").observeSingleEvent(of: .value, with: { (snapshot) in
+            // Get user value
+            print(snapshot.value!)
+            
+//            let snap = snapshot.value as! NSDictionary
+//            print("$$$$$$$$$$$$$$$$$$$$$$$$")
+//            print(snap["Eastern meals"] ?? " ")
+        
+            //let value = snapshot.value as? NSDictionary
+           /// let score = value?["score"] as? String ?? ""
+            
+           // print(score)
+                  
+                     // let snap = child as! DataSnapshot
+                     //let dict = snap.value as! [String: String]
+                   // print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
+                  
+//                    let phone = dict["phone"]!
+//                    let street = dict["street"]!
+//                    let house = dict["house"]!
+//                    let address = dict["address"]!
+//                    let flat = dict["flat"]!
+//                    let floor = dict["floor"]!
+//
+//                    let otherInstruction = dict["otherInstruction"]!
+//                    print("the bits ------")
+//                    print("address .... \(address)")
+//                    print("flat .... \(flat)")
+//                    print("floor .... \(floor)")
+//                    print("phone ........\(phone)")
+//                    print("street .....\(street)")
+//                    print("house ..... \(house)")
+//                    print("otherInstruction.....\(otherInstruction)")
+//
+//                    loopCount += 1
+//
+//                    let myaddress = Address(phone: phone, address: address, street: street, house: house, flat: flat, floor: floor, otherinstruction: otherInstruction)
+//
+//                    self.addresss.append(myaddress)
+                    
+            
+        })
     }
 
     override func didReceiveMemoryWarning() {

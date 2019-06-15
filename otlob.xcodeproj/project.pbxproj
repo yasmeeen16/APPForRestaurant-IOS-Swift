@@ -10,6 +10,11 @@
 		5D018DFD22AFBA8A0070A391 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D018DFC22AFBA8A0070A391 /* Address.swift */; };
 		5D018DFF22AFC3D00070A391 /* AddressDAOImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D018DFE22AFC3D00070A391 /* AddressDAOImp.swift */; };
 		5D018E0422AFE1670070A391 /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D018E0322AFE1670070A391 /* AddressCell.swift */; };
+		5D04314122B500E600237013 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04314022B500E600237013 /* HomeCell.swift */; };
+		5D04314322B51A7700237013 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04314222B51A7700237013 /* Meal.swift */; };
+		5D04314522B51FCB00237013 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04314422B51FCB00237013 /* Category.swift */; };
+		5D04314722B5208400237013 /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04314622B5208400237013 /* SubCategory.swift */; };
+		5D04314922B520DC00237013 /* Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04314822B520DC00237013 /* Additions.swift */; };
 		5D0BFC6F2292BE6300221F2B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0BFC6E2292BE6300221F2B /* loginViewController.swift */; };
 		5D3A9CDE22AD2C560060A5B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A9CDD22AD2C560060A5B4 /* GoogleService-Info.plist */; };
 		5D97A82F22AC72AF00A9D99F /* AddressesTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97A82E22AC72AF00A9D99F /* AddressesTabelViewController.swift */; };
@@ -37,6 +42,11 @@
 		5D018DFC22AFBA8A0070A391 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		5D018DFE22AFC3D00070A391 /* AddressDAOImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDAOImp.swift; sourceTree = "<group>"; };
 		5D018E0322AFE1670070A391 /* AddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
+		5D04314022B500E600237013 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		5D04314222B51A7700237013 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		5D04314422B51FCB00237013 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5D04314622B5208400237013 /* SubCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
+		5D04314822B520DC00237013 /* Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additions.swift; sourceTree = "<group>"; };
 		5D0BFC6E2292BE6300221F2B /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		5D3A9CDD22AD2C560060A5B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5D97A82E22AC72AF00A9D99F /* AddressesTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesTabelViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +91,10 @@
 			children = (
 				5D018DFC22AFBA8A0070A391 /* Address.swift */,
 				5D018DFE22AFC3D00070A391 /* AddressDAOImp.swift */,
+				5D04314222B51A7700237013 /* Meal.swift */,
+				5D04314422B51FCB00237013 /* Category.swift */,
+				5D04314622B5208400237013 /* SubCategory.swift */,
+				5D04314822B520DC00237013 /* Additions.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -89,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				5D018E0322AFE1670070A391 /* AddressCell.swift */,
+				5D04314022B500E600237013 /* HomeCell.swift */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -291,16 +306,21 @@
 				5DC94F5C229D62AE00C84FEC /* OrdersViewController.swift in Sources */,
 				5D018E0422AFE1670070A391 /* AddressCell.swift in Sources */,
 				5D9C92AA22A396B700F6EF1D /* AddToCardViewController.swift in Sources */,
+				5D04314922B520DC00237013 /* Additions.swift in Sources */,
 				5DA7652F2291703A002A4A3A /* ViewController.swift in Sources */,
 				83FFFCA7229F320700C5D6CD /* testcontroller.swift in Sources */,
+				5D04314722B5208400237013 /* SubCategory.swift in Sources */,
 				5D9C92A222A01D8400F6EF1D /* HeaderView.swift in Sources */,
 				5DFCEDAF229C15300031650A /* Language.swift in Sources */,
 				5D97A82F22AC72AF00A9D99F /* AddressesTabelViewController.swift in Sources */,
+				5D04314122B500E600237013 /* HomeCell.swift in Sources */,
 				5D018DFD22AFBA8A0070A391 /* Address.swift in Sources */,
+				5D04314322B51A7700237013 /* Meal.swift in Sources */,
 				5D9C929E229F3AD700F6EF1D /* test2ViewController.swift in Sources */,
 				5DA7652D2291703A002A4A3A /* AppDelegate.swift in Sources */,
 				5D0BFC6F2292BE6300221F2B /* loginViewController.swift in Sources */,
 				5DECB10322ACD87C00C86027 /* CreateAccount.swift in Sources */,
+				5D04314522B51FCB00237013 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

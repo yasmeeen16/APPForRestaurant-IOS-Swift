@@ -9,4 +9,6 @@ target 'otlob' do
 pod 'Firebase/Core'
 pod 'TextFieldEffects'
 pod 'LBTAComponents'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
 end

@@ -8,8 +8,22 @@
 
 import UIKit
 
-class OrdersViewController: UIViewController {
+class OrdersViewController: UIViewController ,UITableViewDataSource,UITextViewDelegate {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = TabelView.dequeueReusableCell(withIdentifier: "cellCard")
 
+        return cell!
+    }
+    
+
+    @IBOutlet weak var TabelView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

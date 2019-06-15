@@ -10,6 +10,7 @@ import UIKit
 
 class AddToCardViewController: UIViewController, UITextViewDelegate {
 
+    @IBOutlet weak var DetailsOutlet: UITextView!
     @IBOutlet weak var AddToCardOutlet: UIButton!
     @IBOutlet weak var orderNumber: UILabel!
     @IBOutlet weak var BackgroundViewOfText: UIView!
@@ -20,6 +21,8 @@ class AddToCardViewController: UIViewController, UITextViewDelegate {
         super.viewDidLoad()
         textviewField.text = "Placeholder"
         textviewField.textColor = UIColor.lightGray
+        DetailsOutlet.isEditable = false
+        DetailsOutlet.isSelectable = false
         // Do any additional setup after loading the view.
     }
     

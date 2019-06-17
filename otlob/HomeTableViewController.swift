@@ -131,8 +131,14 @@ class HomeTableViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //tableView.deselectRow(at: indexPath, animated: true)
-       
-        performSegue(withIdentifier: "ShowDetails", sender: self)
+       let categoryid = self.categoryArray[indexPath.row].id
+        let vc = storyboard?.instantiateViewController(withIdentifier: "CollabseViewController") as! CollabseViewController
+        vc.categId = categoryid!
+        vc.categImage = self.categoryArray[indexPath.row].image!
+        vc.categName = self.categoryArray[indexPath.row].name!
+        vc.categDesc = self.categoryArray[indexPath.row].desc!
+        self.navigationController?.pushViewController(vc, animated: true)
+        //performSegue(withIdentifier: "ShowDetails", sender: self)
     }
     
     public func saveCategory(category: Category){

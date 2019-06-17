@@ -116,6 +116,10 @@ class AddressesTabelViewController: UIViewController ,UITableViewDataSource,UITa
             tabelview.deleteRows(at: [indexPath], with: .automatic)
         }
     }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 190
+        
+    }
     
     
    }

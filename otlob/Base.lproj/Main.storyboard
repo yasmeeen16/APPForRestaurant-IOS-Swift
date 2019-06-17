@@ -1109,9 +1109,9 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food2" translatesAutoresizingMaskIntoConstraints="NO" id="jNI-Ru-yBf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="184.5"/>
+                                            <rect key="frame" x="6" y="0.0" width="363" height="173.5"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="184.5" id="wAx-fo-vFp"/>
+                                                <constraint firstAttribute="height" constant="173.5" id="zRf-Ro-uKf"/>
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1216,18 +1216,18 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="89o-2A-hq6" secondAttribute="trailing" constant="5" id="8ph-qE-Vid"/>
                                         <constraint firstItem="K8w-Bt-odh" firstAttribute="top" secondItem="9Mg-n4-88g" secondAttribute="bottom" constant="8" id="Cdj-RS-SOA"/>
                                         <constraint firstAttribute="trailing" secondItem="2de-Qj-wc8" secondAttribute="trailing" constant="11" id="D8M-bO-oPb"/>
-                                        <constraint firstItem="jNI-Ru-yBf" firstAttribute="leading" secondItem="zac-AX-tNE" secondAttribute="leading" id="EiM-Xo-JYi"/>
                                         <constraint firstItem="UNo-05-HEp" firstAttribute="top" secondItem="Wsd-dl-eSs" secondAttribute="bottom" constant="6" id="Hee-fV-vTC"/>
                                         <constraint firstItem="4lT-fV-MAd" firstAttribute="top" secondItem="zac-AX-tNE" secondAttribute="topMargin" constant="37" id="IQF-3a-CHT"/>
                                         <constraint firstAttribute="bottom" secondItem="UNo-05-HEp" secondAttribute="bottom" constant="20" id="M2B-iG-nLX"/>
-                                        <constraint firstAttribute="bottom" secondItem="jNI-Ru-yBf" secondAttribute="bottom" constant="5" id="MOh-Sm-n8G"/>
+                                        <constraint firstItem="jNI-Ru-yBf" firstAttribute="leading" secondItem="zac-AX-tNE" secondAttribute="leading" constant="6" id="Mhh-V5-dvy"/>
                                         <constraint firstItem="2de-Qj-wc8" firstAttribute="top" secondItem="zac-AX-tNE" secondAttribute="top" constant="11" id="R5v-Cw-Wjp"/>
+                                        <constraint firstAttribute="bottom" secondItem="jNI-Ru-yBf" secondAttribute="bottom" constant="16" id="bOY-kv-VG7"/>
                                         <constraint firstAttribute="trailing" secondItem="K8w-Bt-odh" secondAttribute="trailing" constant="16" id="cmz-dy-rXP"/>
                                         <constraint firstAttribute="trailing" secondItem="9Mg-n4-88g" secondAttribute="trailing" constant="16" id="f20-h8-CSP"/>
+                                        <constraint firstAttribute="trailing" secondItem="jNI-Ru-yBf" secondAttribute="trailing" constant="6" id="gwO-h5-LGt"/>
                                         <constraint firstAttribute="bottom" secondItem="K8w-Bt-odh" secondAttribute="bottom" constant="20" id="mzT-UD-YAY"/>
                                         <constraint firstItem="Wsd-dl-eSs" firstAttribute="leading" secondItem="zac-AX-tNE" secondAttribute="leading" constant="16" id="nbg-1w-BT9"/>
                                         <constraint firstItem="89o-2A-hq6" firstAttribute="top" secondItem="zac-AX-tNE" secondAttribute="topMargin" constant="37" id="qrb-gc-29S"/>
-                                        <constraint firstAttribute="trailing" secondItem="jNI-Ru-yBf" secondAttribute="trailing" id="roH-3t-gky"/>
                                         <constraint firstItem="4lT-fV-MAd" firstAttribute="trailing" secondItem="zac-AX-tNE" secondAttribute="trailingMargin" id="yX3-ha-2jl"/>
                                     </constraints>
                                 </tableViewCellContentView>
@@ -1509,7 +1509,7 @@
         <!--Collabse View Controller-->
         <scene sceneID="wV8-bA-py6">
             <objects>
-                <viewController id="UfM-7Q-AuC" customClass="CollabseViewController" customModule="otlob" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CollabseViewController" id="UfM-7Q-AuC" customClass="CollabseViewController" customModule="otlob" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yCc-qq-MZR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1638,6 +1638,9 @@
                         <viewLayoutGuide key="safeArea" id="yzB-Ip-Afh"/>
                     </view>
                     <connections>
+                        <outlet property="CategoryDesc" destination="uhx-EC-gR3" id="eOO-eT-vo2"/>
+                        <outlet property="categoryImage" destination="d0V-L5-eBa" id="DW6-OJ-rnY"/>
+                        <outlet property="categoryName" destination="5eF-V5-NNh" id="iou-pG-apz"/>
                         <outlet property="tabelView" destination="KFQ-Wp-xBT" id="pXs-JU-mug"/>
                         <segue destination="sUH-6r-8Eg" kind="show" identifier="Showadtocard" id="H6V-OI-INS"/>
                     </connections>

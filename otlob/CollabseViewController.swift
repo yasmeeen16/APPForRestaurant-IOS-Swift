@@ -10,13 +10,34 @@ import UIKit
 
 class CollabseViewController: UIViewController {
 
- 
+    @IBOutlet weak var categoryImage: UIImageView!
+    @IBOutlet weak var categoryName: UILabel!
+    @IBOutlet weak var CategoryDesc: UILabel!
+    
+    var categId = " "
+    var categImage = " "
+    var categName = " "
+    var categDesc = " "
     var data = [DataModelOfCollabseTabel(HeaderName: "the most sels", subtype:["chesses1","chesses2","chesses3"], isExpandable: false ),DataModelOfCollabseTabel(HeaderName: "the most sels1", subtype:["chesses1","chesses2","chesses3"], isExpandable: false ),DataModelOfCollabseTabel(HeaderName: "the most sels2", subtype:["chesses1","chesses2","chesses3"], isExpandable: false )]
     @IBOutlet weak var tabelView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         tabelView.tableFooterView = UIView()
+        print("********************************")
+        print(self.categId)
+        print(self.categImage)
         // Do any additional setup after loading the view.
+        if let url = URL(string: self.categImage){
+            do{
+                let data = try Data(contentsOf: url)
+                categoryImage.image = UIImage(data: data)
+            }catch let error{
+                print(error.localizedDescription)
+            }
+        }
+        categoryName.text = categName
+        CategoryDesc.text = categDesc
+        
     }
 
     override func didReceiveMemoryWarning() {

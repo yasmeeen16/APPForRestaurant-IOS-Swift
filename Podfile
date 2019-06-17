@@ -11,4 +11,6 @@ pod 'TextFieldEffects'
 pod 'LBTAComponents'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+pod 'Kingfisher'
+
 end

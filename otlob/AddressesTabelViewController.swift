@@ -28,6 +28,7 @@ class AddressesTabelViewController: UIViewController ,UITableViewDataSource,UITa
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "addressCell") as! AddressCell
          let address = self.addresss[indexPath.row]
+        
         cell.configureCellEn(add: address)
         
         return cell

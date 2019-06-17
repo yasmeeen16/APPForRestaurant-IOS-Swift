@@ -15,21 +15,22 @@ class Category{
     private var _image:String!
     
     
-    init(name:String, desc:String, image:String!) {
+    init(name:String, desc:String, image:String! ,id:String!) {
+        self.id = id
         self.name = name
         self.desc = desc
         self.image = image
         
     }
     
-    //    public var id:String!{
-    //        get{
-    //            return _id
-    //        }
-    //        set{
-    //            _id = newValue
-    //        }
-    //    }
+        public var id:String!{
+            get{
+                return _id
+            }
+            set{
+                _id = newValue
+            }
+        }
     
     public var name:String!{
         get{
@@ -60,13 +61,14 @@ class Category{
     
     public func categoryMapper()->[String:Any]{
         var category=[String:Any]()
+        category["id"] = self.id
         category["desc"] = self.desc
         category["name"] = self.name
         category["image"] = self.image
         return category
     }
     public static func mapToCategory(category:[String:Any],key:String)->Category{
-        let category = Category(name: category["name"] as! String, desc: category["desc"] as! String, image: category["image"] as! String)
+        let category = Category(name: category["name"] as! String, desc: category["desc"] as! String, image: category["image"] as! String, id: category["id"] as! String)
         
         return category
     }

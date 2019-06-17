@@ -15,26 +15,35 @@ class Additions{
     private var _required:NSNumber!
     private var _image:String!
     private var _desc:String!
+    private var _meal_id:String!
     
-    init(name:String, price:String, image:String!, required:NSNumber!, desc:String!) {
+    init(id:String, name:String, price:String, image:String!, required:NSNumber!, desc:String!, meal_id:String) {
         self.name = name
         self.desc = desc
         self.image = image
         self.price = price
         self.required = required
+        self.meal_id = meal_id
         
     }
     
-    //    public var id:String!{
-    //        get{
-    //            return _id
-    //        }
-    //        set{
-    //            _id = newValue
-    //        }
-    //    }
+        public var id:String!{
+            get{
+                return _id
+            }
+            set{
+                _id = newValue
+            }
+        }
   
-    
+    public var meal_id:String!{
+        get{
+            return _meal_id
+        }
+        set{
+            _meal_id = newValue
+        }
+    }
     public var required:NSNumber!{
         get{
             return _required
@@ -80,15 +89,17 @@ class Additions{
     
     public func additionMapper()->[String:Any]{
         var addition=[String:Any]()
+        addition["id"] = self.id
         addition["desc"] = self.desc
         addition["name"] = self.name
         addition["image"] = self.image
         addition["price"] = self.price
         addition["required"] = self.required
+        addition["meal_id"] = self.meal_id
         return addition
     }
     public static func mapToAddition(addition:[String:Any],key:String)->Additions{
-        let addition = Additions(name: addition["name"] as! String, price: addition["price"] as! String, image: addition["image"] as! String, required: addition["required"] as! NSNumber, desc: addition["desc"] as! String)
+        let addition = Additions(id: addition["id"] as! String, name: addition["name"] as! String, price: addition["price"] as! String, image: addition["image"] as! String, required: addition["required"] as! NSNumber, desc: addition["desc"] as! String, meal_id: addition["meal_id"] as! String)
         
         return addition
     }

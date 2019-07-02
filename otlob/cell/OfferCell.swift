@@ -1,3 +1,4 @@
+
 //
 //  OfferCell.swift
 //  otlob
@@ -10,4 +11,5 @@ import UIKit
 
 class OfferCell: UICollectionViewCell {
     
+    @IBOutlet weak var offerImageOutlet: UIImageView!
 }

@@ -10,6 +10,7 @@ import UIKit
 
 class ServiceCell: UITableViewCell {
 
+    @IBOutlet weak var ServiceOutlet: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

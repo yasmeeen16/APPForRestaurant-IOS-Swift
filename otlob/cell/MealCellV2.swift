@@ -10,6 +10,15 @@ import UIKit
 
 class MealCellV2: UITableViewCell {
 
+    @IBOutlet weak var MealImageOutlet: UIImageView!
+    
+    @IBOutlet weak var MealNameOutlet: UILabel!
+    
+    @IBOutlet weak var MealDescOutlet: UILabel!
+    @IBOutlet weak var MealPriceOutlet: UILabel!
+    var id = ""
+    var Mealimageurl = " "
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

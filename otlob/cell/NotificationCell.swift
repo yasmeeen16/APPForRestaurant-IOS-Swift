@@ -10,6 +10,9 @@ import UIKit
 
 class NotificationCell: UITableViewCell {
 
+    @IBOutlet weak var ImageNotificationOutlet: UIImageView!
+    
+    @IBOutlet weak var textNotificationOutlet: UITextView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +23,20 @@ class NotificationCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    func configureCellEn(notification : Notifications) {
+        
+        let id = notification.id
+        let image = notification.NotificationImage
+        if let url = URL(string: image!){
+            do{
+                let data = try Data(contentsOf: url)
+                ImageNotificationOutlet.image = UIImage(data: data)
+            }catch let error{
+                print(error.localizedDescription)
+            }
+        }
+       textNotificationOutlet.text = notification.NotificationText
+        
+        
+    }
 }

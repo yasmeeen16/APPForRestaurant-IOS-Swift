@@ -1,3 +1,4 @@
+
 //
 //  headerAdda.swift
 //  otlob
@@ -10,6 +11,8 @@ import UIKit
 
 class headerAdda: UITableViewCell {
 
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

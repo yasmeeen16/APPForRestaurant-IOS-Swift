@@ -7,3 +7,14 @@
 //
 
 import Foundation
+struct AdditionSection {
+    var add : Add
+    var addchoice : [AddChoice]
+    var Expandable : Bool
+    
+    init(add : Add , addchoice : [AddChoice] , Expandable : Bool) {
+        self.add = add
+        self.addchoice = addchoice
+        self.Expandable = Expandable
+    }
+}

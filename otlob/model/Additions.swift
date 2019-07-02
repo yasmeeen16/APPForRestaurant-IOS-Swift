@@ -16,6 +16,8 @@ class Additions{
     private var _image:String!
     private var _desc:String!
     private var _meal_id:String!
+    private var _size:String!
+    
     
     init(id:String, name:String, price:String, image:String!, required:NSNumber!, desc:String!, meal_id:String) {
         self.name = name
@@ -24,6 +26,21 @@ class Additions{
         self.price = price
         self.required = required
         self.meal_id = meal_id
+        
+    }
+    init(size:String , price:String , meal_id:String) {
+        self.size = size
+        self.price = price
+        self.meal_id = meal_id
+    }
+    
+    public var size :String!{
+        get{
+            return _size
+        }
+        set{
+            _size = newValue
+        }
         
     }
     
@@ -98,10 +115,21 @@ class Additions{
         addition["meal_id"] = self.meal_id
         return addition
     }
+    public func additionSize()->[String:Any]{
+        var addition=[String:Any]()
+        addition["size"] = self.size
+        addition["price"] = self.price
+        addition["meal_id"] = self.meal_id
+        return addition
+    }
     public static func mapToAddition(addition:[String:Any],key:String)->Additions{
         let addition = Additions(id: addition["id"] as! String, name: addition["name"] as! String, price: addition["price"] as! String, image: addition["image"] as! String, required: addition["required"] as! NSNumber, desc: addition["desc"] as! String, meal_id: addition["meal_id"] as! String)
         
         return addition
     }
-    
+    public static func mapToAdditionsize(addition:[String:Any],key:String)->Additions{
+        let addition = Additions(size: addition["size"] as! String, price: addition["price"] as! String , meal_id: addition["meal_id"] as! String)
+        
+        return addition
+    }
 }

@@ -14,6 +14,8 @@ class MealCell: UITableViewCell {
     @IBOutlet weak var MealNameOutlet: UILabel!
     @IBOutlet weak var MealDescOutlet: UILabel!
     @IBOutlet weak var MealPriceOutlet: UILabel!
+    var id = ""
+    var Mealimageurl = " "
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,7 +28,8 @@ class MealCell: UITableViewCell {
     }
     
     func configureCell(meal:Meal) {
-        let id = meal.id
+        self.id = meal.id
+        self.Mealimageurl = meal.image
         let name = meal.name
         let desc = meal.desc
         let image = meal.image
@@ -42,8 +45,8 @@ class MealCell: UITableViewCell {
         }
         MealNameOutlet.text = name
         MealDescOutlet.text = desc
-        MealPriceOutlet.text = price
-  
+        MealPriceOutlet.text = price!
+        
     }
 
 }

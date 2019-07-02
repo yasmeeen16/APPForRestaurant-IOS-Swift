@@ -15,7 +15,7 @@ class Meal{
     private var _desc:String!
     private var _image:String!
     private var _subCat_id:String!
-    
+
     init(name:String, price:String, desc:String, image:String!, subCat_id:String ,id:String) {
         self.id = id
         self.name = name
@@ -24,8 +24,8 @@ class Meal{
         self.image = image
         self.subCat_id = subCat_id
     }
-    
-        public var id:String!{
+
+    public var id:String!{
             get{
                 return _id
             }

@@ -16,7 +16,22 @@
 		5D04314722B5208400237013 /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04314622B5208400237013 /* SubCategory.swift */; };
 		5D04314922B520DC00237013 /* Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04314822B520DC00237013 /* Additions.swift */; };
 		5D0BFC6F2292BE6300221F2B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0BFC6E2292BE6300221F2B /* loginViewController.swift */; };
+		5D1D5B5E22C2461000E0BFDF /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5B5D22C2461000E0BFDF /* ServiceCell.swift */; };
+		5D1D5B6022C246C000E0BFDF /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5B5F22C246C000E0BFDF /* Services.swift */; };
+		5D1D5B6422C24B3700E0BFDF /* servicesTabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5B6322C24B3700E0BFDF /* servicesTabel.swift */; };
+		5D1D5B6622C25FD900E0BFDF /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5B6522C25FD900E0BFDF /* OfferCell.swift */; };
+		5D1D5B6822C2628F00E0BFDF /* OffersScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5B6722C2628F00E0BFDF /* OffersScreenViewController.swift */; };
 		5D3A9CDE22AD2C560060A5B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A9CDD22AD2C560060A5B4 /* GoogleService-Info.plist */; };
+		5D536D0422C9657200E42FFA /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D536D0322C9657200E42FFA /* Add.swift */; };
+		5D536D0622C9D05100E42FFA /* AddChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D536D0522C9D05100E42FFA /* AddChoice.swift */; };
+		5D536D0822C9D47400E42FFA /* AdditionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D536D0722C9D47400E42FFA /* AdditionSection.swift */; };
+		5D536D0A22C9D7D700E42FFA /* ExpandableHeaderForAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D536D0922C9D7D700E42FFA /* ExpandableHeaderForAddition.swift */; };
+		5D536D0C22CA1C7400E42FFA /* additioncell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D536D0B22CA1C7400E42FFA /* additioncell.swift */; };
+		5D59CCF122BF96F6000B7793 /* subcatcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D59CCF022BF96F6000B7793 /* subcatcell.swift */; };
+		5D59CCF322BFA698000B7793 /* MealsTabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D59CCF222BFA698000B7793 /* MealsTabel.swift */; };
+		5D59CCF522BFB8A0000B7793 /* MealCellV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D59CCF422BFB8A0000B7793 /* MealCellV2.swift */; };
+		5D59CCF722BFD885000B7793 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D59CCF622BFD885000B7793 /* NotificationViewController.swift */; };
+		5D6B082A22BE3D4700053BF8 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B082922BE3D4700053BF8 /* Orders.swift */; };
 		5D97A82F22AC72AF00A9D99F /* AddressesTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97A82E22AC72AF00A9D99F /* AddressesTabelViewController.swift */; };
 		5D97A83122AC9E4C00A9D99F /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97A83022AC9E4C00A9D99F /* login.swift */; };
 		5D9C929E229F3AD700F6EF1D /* test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C929D229F3AD700F6EF1D /* test2ViewController.swift */; };
@@ -30,6 +45,8 @@
 		5DA765322291703A002A4A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA765302291703A002A4A3A /* Main.storyboard */; };
 		5DA765342291703A002A4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA765332291703A002A4A3A /* Assets.xcassets */; };
 		5DA765372291703A002A4A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA765352291703A002A4A3A /* LaunchScreen.storyboard */; };
+		5DACF9A922C0DE4400E7CA3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACF9A822C0DE4400E7CA3F /* Notifications.swift */; };
+		5DACF9AB22C0E60200E7CA3F /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACF9AA22C0E60200E7CA3F /* NotificationCell.swift */; };
 		5DBD846E22B7A1A200ED43F8 /* SubCategoryWithMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD846D22B7A1A200ED43F8 /* SubCategoryWithMenu.swift */; };
 		5DBD847022B7B3FE00ED43F8 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD846F22B7B3FD00ED43F8 /* MealCell.swift */; };
 		5DC94F5C229D62AE00C84FEC /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC94F5B229D62AE00C84FEC /* OrdersViewController.swift */; };
@@ -50,7 +67,22 @@
 		5D04314622B5208400237013 /* SubCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
 		5D04314822B520DC00237013 /* Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additions.swift; sourceTree = "<group>"; };
 		5D0BFC6E2292BE6300221F2B /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		5D1D5B5D22C2461000E0BFDF /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		5D1D5B5F22C246C000E0BFDF /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		5D1D5B6322C24B3700E0BFDF /* servicesTabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = servicesTabel.swift; sourceTree = "<group>"; };
+		5D1D5B6522C25FD900E0BFDF /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		5D1D5B6722C2628F00E0BFDF /* OffersScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersScreenViewController.swift; sourceTree = "<group>"; };
 		5D3A9CDD22AD2C560060A5B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D536D0322C9657200E42FFA /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
+		5D536D0522C9D05100E42FFA /* AddChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChoice.swift; sourceTree = "<group>"; };
+		5D536D0722C9D47400E42FFA /* AdditionSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionSection.swift; sourceTree = "<group>"; };
+		5D536D0922C9D7D700E42FFA /* ExpandableHeaderForAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderForAddition.swift; sourceTree = "<group>"; };
+		5D536D0B22CA1C7400E42FFA /* additioncell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = additioncell.swift; sourceTree = "<group>"; };
+		5D59CCF022BF96F6000B7793 /* subcatcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subcatcell.swift; sourceTree = "<group>"; };
+		5D59CCF222BFA698000B7793 /* MealsTabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTabel.swift; sourceTree = "<group>"; };
+		5D59CCF422BFB8A0000B7793 /* MealCellV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCellV2.swift; sourceTree = "<group>"; };
+		5D59CCF622BFD885000B7793 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		5D6B082922BE3D4700053BF8 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		5D97A82E22AC72AF00A9D99F /* AddressesTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesTabelViewController.swift; sourceTree = "<group>"; };
 		5D97A83022AC9E4C00A9D99F /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		5D9C929D229F3AD700F6EF1D /* test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +98,8 @@
 		5DA765332291703A002A4A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA765362291703A002A4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA765382291703A002A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DACF9A822C0DE4400E7CA3F /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		5DACF9AA22C0E60200E7CA3F /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		5DBD846D22B7A1A200ED43F8 /* SubCategoryWithMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryWithMenu.swift; sourceTree = "<group>"; };
 		5DBD846F22B7B3FD00ED43F8 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
 		5DC94F5B229D62AE00C84FEC /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +134,12 @@
 				5D04314622B5208400237013 /* SubCategory.swift */,
 				5D04314822B520DC00237013 /* Additions.swift */,
 				5DBD846D22B7A1A200ED43F8 /* SubCategoryWithMenu.swift */,
+				5D6B082922BE3D4700053BF8 /* Orders.swift */,
+				5DACF9A822C0DE4400E7CA3F /* Notifications.swift */,
+				5D1D5B5F22C246C000E0BFDF /* Services.swift */,
+				5D536D0322C9657200E42FFA /* Add.swift */,
+				5D536D0522C9D05100E42FFA /* AddChoice.swift */,
+				5D536D0722C9D47400E42FFA /* AdditionSection.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -110,6 +150,12 @@
 				5D018E0322AFE1670070A391 /* AddressCell.swift */,
 				5D04314022B500E600237013 /* HomeCell.swift */,
 				5DBD846F22B7B3FD00ED43F8 /* MealCell.swift */,
+				5D59CCF022BF96F6000B7793 /* subcatcell.swift */,
+				5D59CCF422BFB8A0000B7793 /* MealCellV2.swift */,
+				5DACF9AA22C0E60200E7CA3F /* NotificationCell.swift */,
+				5D1D5B5D22C2461000E0BFDF /* ServiceCell.swift */,
+				5D1D5B6522C25FD900E0BFDF /* OfferCell.swift */,
+				5D536D0B22CA1C7400E42FFA /* additioncell.swift */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -158,6 +204,11 @@
 				5D97A82E22AC72AF00A9D99F /* AddressesTabelViewController.swift */,
 				5D97A83022AC9E4C00A9D99F /* login.swift */,
 				5DECB10222ACD87B00C86027 /* CreateAccount.swift */,
+				5D59CCF222BFA698000B7793 /* MealsTabel.swift */,
+				5D59CCF622BFD885000B7793 /* NotificationViewController.swift */,
+				5D1D5B6322C24B3700E0BFDF /* servicesTabel.swift */,
+				5D1D5B6722C2628F00E0BFDF /* OffersScreenViewController.swift */,
+				5D536D0922C9D7D700E42FFA /* ExpandableHeaderForAddition.swift */,
 			);
 			path = otlob;
 			sourceTree = "<group>";
@@ -306,18 +357,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D9C92A622A2CE2700F6EF1D /* HomeTableViewController.swift in Sources */,
+				5DACF9AB22C0E60200E7CA3F /* NotificationCell.swift in Sources */,
 				5D97A83122AC9E4C00A9D99F /* login.swift in Sources */,
 				5D018DFF22AFC3D00070A391 /* AddressDAOImp.swift in Sources */,
 				5D9C92A022A01B4200F6EF1D /* DataModelOfCollabseTabel.swift in Sources */,
+				5D536D0822C9D47400E42FFA /* AdditionSection.swift in Sources */,
 				5DBD847022B7B3FE00ED43F8 /* MealCell.swift in Sources */,
 				5D9C92A422A0240300F6EF1D /* CollabseViewController.swift in Sources */,
+				5D6B082A22BE3D4700053BF8 /* Orders.swift in Sources */,
 				5DFCEDB1229D4A1B0031650A /* HomeViewController.swift in Sources */,
+				5D536D0A22C9D7D700E42FFA /* ExpandableHeaderForAddition.swift in Sources */,
+				5DACF9A922C0DE4400E7CA3F /* Notifications.swift in Sources */,
+				5D59CCF522BFB8A0000B7793 /* MealCellV2.swift in Sources */,
 				5DC94F5C229D62AE00C84FEC /* OrdersViewController.swift in Sources */,
+				5D536D0422C9657200E42FFA /* Add.swift in Sources */,
+				5D59CCF122BF96F6000B7793 /* subcatcell.swift in Sources */,
 				5D018E0422AFE1670070A391 /* AddressCell.swift in Sources */,
 				5D9C92AA22A396B700F6EF1D /* AddToCardViewController.swift in Sources */,
 				5D04314922B520DC00237013 /* Additions.swift in Sources */,
 				5DA7652F2291703A002A4A3A /* ViewController.swift in Sources */,
 				83FFFCA7229F320700C5D6CD /* testcontroller.swift in Sources */,
+				5D59CCF722BFD885000B7793 /* NotificationViewController.swift in Sources */,
+				5D536D0622C9D05100E42FFA /* AddChoice.swift in Sources */,
 				5D04314722B5208400237013 /* SubCategory.swift in Sources */,
 				5D9C92A222A01D8400F6EF1D /* HeaderView.swift in Sources */,
 				5DFCEDAF229C15300031650A /* Language.swift in Sources */,
@@ -325,12 +386,19 @@
 				5D04314122B500E600237013 /* HomeCell.swift in Sources */,
 				5DBD846E22B7A1A200ED43F8 /* SubCategoryWithMenu.swift in Sources */,
 				5D018DFD22AFBA8A0070A391 /* Address.swift in Sources */,
+				5D1D5B6422C24B3700E0BFDF /* servicesTabel.swift in Sources */,
 				5D04314322B51A7700237013 /* Meal.swift in Sources */,
+				5D1D5B6822C2628F00E0BFDF /* OffersScreenViewController.swift in Sources */,
+				5D59CCF322BFA698000B7793 /* MealsTabel.swift in Sources */,
+				5D1D5B6622C25FD900E0BFDF /* OfferCell.swift in Sources */,
 				5D9C929E229F3AD700F6EF1D /* test2ViewController.swift in Sources */,
 				5DA7652D2291703A002A4A3A /* AppDelegate.swift in Sources */,
+				5D1D5B6022C246C000E0BFDF /* Services.swift in Sources */,
 				5D0BFC6F2292BE6300221F2B /* loginViewController.swift in Sources */,
+				5D536D0C22CA1C7400E42FFA /* additioncell.swift in Sources */,
 				5DECB10322ACD87C00C86027 /* CreateAccount.swift in Sources */,
 				5D04314522B51FCB00237013 /* Category.swift in Sources */,
+				5D1D5B5E22C2461000E0BFDF /* ServiceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,6 +30,8 @@
 		5DA765322291703A002A4A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA765302291703A002A4A3A /* Main.storyboard */; };
 		5DA765342291703A002A4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA765332291703A002A4A3A /* Assets.xcassets */; };
 		5DA765372291703A002A4A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA765352291703A002A4A3A /* LaunchScreen.storyboard */; };
+		5DBD846E22B7A1A200ED43F8 /* SubCategoryWithMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD846D22B7A1A200ED43F8 /* SubCategoryWithMenu.swift */; };
+		5DBD847022B7B3FE00ED43F8 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD846F22B7B3FD00ED43F8 /* MealCell.swift */; };
 		5DC94F5C229D62AE00C84FEC /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC94F5B229D62AE00C84FEC /* OrdersViewController.swift */; };
 		5DECB10322ACD87C00C86027 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DECB10222ACD87B00C86027 /* CreateAccount.swift */; };
 		5DFCEDAF229C15300031650A /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCEDAE229C15300031650A /* Language.swift */; };
@@ -64,6 +66,8 @@
 		5DA765332291703A002A4A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA765362291703A002A4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA765382291703A002A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBD846D22B7A1A200ED43F8 /* SubCategoryWithMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryWithMenu.swift; sourceTree = "<group>"; };
+		5DBD846F22B7B3FD00ED43F8 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
 		5DC94F5B229D62AE00C84FEC /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		5DECB10222ACD87B00C86027 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 		5DFCEDAE229C15300031650A /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 				5D04314422B51FCB00237013 /* Category.swift */,
 				5D04314622B5208400237013 /* SubCategory.swift */,
 				5D04314822B520DC00237013 /* Additions.swift */,
+				5DBD846D22B7A1A200ED43F8 /* SubCategoryWithMenu.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			children = (
 				5D018E0322AFE1670070A391 /* AddressCell.swift */,
 				5D04314022B500E600237013 /* HomeCell.swift */,
+				5DBD846F22B7B3FD00ED43F8 /* MealCell.swift */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -303,6 +309,7 @@
 				5D97A83122AC9E4C00A9D99F /* login.swift in Sources */,
 				5D018DFF22AFC3D00070A391 /* AddressDAOImp.swift in Sources */,
 				5D9C92A022A01B4200F6EF1D /* DataModelOfCollabseTabel.swift in Sources */,
+				5DBD847022B7B3FE00ED43F8 /* MealCell.swift in Sources */,
 				5D9C92A422A0240300F6EF1D /* CollabseViewController.swift in Sources */,
 				5DFCEDB1229D4A1B0031650A /* HomeViewController.swift in Sources */,
 				5DC94F5C229D62AE00C84FEC /* OrdersViewController.swift in Sources */,
@@ -316,6 +323,7 @@
 				5DFCEDAF229C15300031650A /* Language.swift in Sources */,
 				5D97A82F22AC72AF00A9D99F /* AddressesTabelViewController.swift in Sources */,
 				5D04314122B500E600237013 /* HomeCell.swift in Sources */,
+				5DBD846E22B7A1A200ED43F8 /* SubCategoryWithMenu.swift in Sources */,
 				5D018DFD22AFBA8A0070A391 /* Address.swift in Sources */,
 				5D04314322B51A7700237013 /* Meal.swift in Sources */,
 				5D9C929E229F3AD700F6EF1D /* test2ViewController.swift in Sources */,

@@ -1,17 +1,15 @@
 //
-//  DataModelOfCollabseTabel.swift
+//  SubCategoryWithMenu.swift
 //  otlob
 //
-//  Created by yasmeen on 5/30/19.
+//  Created by yasmeen on 6/17/19.
 //  Copyright © 2019 yasmeen. All rights reserved.
 //
 
 import Foundation
-class DataModelOfCollabseTabel {
-    var HeaderName : String?
-    var subtype = [String]()
-    //var isExpandable : Bool = false
-    private var _isExpandable:Bool = false
+import FirebaseAuth
+
+class SubCategoryWithMenu{
     private var _id:String!
     private var _name:String!
     private var _meals:[Meal]!
@@ -19,34 +17,13 @@ class DataModelOfCollabseTabel {
     private var _image:String!
     private var _Cat_id:String!
     
-    init(HeaderName : String,subtype: [String], isExpandable :Bool){
-        self.HeaderName = HeaderName
-        self.subtype = subtype
-        self.isExpandable = isExpandable
-        
-    }
-    init(HeaderName : String,subtype: [String], isExpandable :Bool,ef:String){
-        self.HeaderName = HeaderName
-        self.subtype = subtype
-        self.isExpandable = isExpandable
-        
-    }
-    init(id:String, name:String, meals:[Meal], desc:String!, image:String ,Cat_id:String ,isExpandable :Bool) {
+    init(id:String, name:String, meals:[Meal], desc:String!, image:String ,Cat_id:String) {
         self.id = id
         self.name = name
         self.meals = meals
         self.desc = desc
         self.image = image
         self.Cat_id = Cat_id
-        self.isExpandable = isExpandable
-    }
-    public var isExpandable:Bool!{
-        get{
-            return _isExpandable
-        }
-        set{
-            _isExpandable = newValue
-        }
     }
     
     public var id:String!{
@@ -111,7 +88,6 @@ class DataModelOfCollabseTabel {
         
         return subcatWithMeunu
     }
-    
-    
 
+    
 }

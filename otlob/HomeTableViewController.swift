@@ -57,13 +57,24 @@ class HomeTableViewController: UITableViewController {
         //saveSubCategory(subcategory: subcategory5)
         //-----------------------------------
         let meal1 = Meal(name: "chocolate truffle cheesecake", price: "60LE", desc: "chocolate-truffle-cheesecake", image: "https://spicysouthernkitchen.com/wp-content/uploads/chocolate-truffle-cheesecake-4.jpg", subCat_id: "-LhV5Z5wqoLVwxzW8xuu", id: " ")
-       // saveMeal(meal: meal1)
+       //saveMeal(meal: meal1)
         let meal2 = Meal(name: "Chocolate-Strawberry-Treats-Dessert-Recipe", price: "60LE", desc: "Chocolate-Strawberry-Treats-Dessert-Recipe", image: "https://www.happyfoodstube.com/wp-content/uploads/2016/02/Chocolate-Strawberry-Treats-Dessert-Recipe.jpg", subCat_id: "-LhV5Z5wqoLVwxzW8xuu", id: " ")
         //saveMeal(meal: meal2)
         let meal3 = Meal(name: "chocolate truffle cheesecake", price: "60LE", desc: "chocolate-truffle-cheesecake", image: "https://spicysouthernkitchen.com/wp-content/uploads/chocolate-truffle-cheesecake-4.jpg", subCat_id: "-LhV5Z5wqoLVwxzW8xuu", id: " ")
-        //saveMeal(meal: meal3)
+        saveMeal(meal: meal3)
         let meal4 = Meal(name: "chocolate-cheesecake", price: "60LE", desc: "chocolate-cheesecake", image: "https://d2mkh7ukbp9xav.cloudfront.net/recipeimage/tzztrfk8-0cdbe-185943-cfcd2-q9182mes/08de4af2-0835-4cda-8474-ba7196736995/main/all-in-one-strawberry-and-white-chocolate-cheesecake.jpg", subCat_id: "-LhV5Z5wqoLVwxzW8xuu", id: " ")
-        //saveMeal(meal: meal4)
+        saveMeal(meal: meal4)
+        //-----------------------------------
+        let meal5 = Meal(name: "pizza fresca", price: "70LE", desc: "pizza fresca", image: "http://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg", subCat_id: "-LhVBlUODj-uSvN8f5pU", id: " ")
+         //saveMeal(meal: meal5)
+        let meal6 = Meal(name: "pizza alwatanvoice", price: "45LE", desc: "pizza alwatanvoice", image: "https://images.alwatanvoice.com/news/large/9998927362.jpg", subCat_id: "-LhVBlUODj-uSvN8f5pU", id: " ")
+        //saveMeal(meal: meal6)
+        let meal7 = Meal(name: "Chicken-Pizza", price: "56LE", desc: "Chicken-Pizza", image: "https://www.tasteofhome.com/wp-content/uploads/2017/10/Chicken-Pizza_exps30800_FM143298B03_11_8bC_RMS-2-696x696.jpg", subCat_id: "-LhVBlUODj-uSvN8f5pU", id: " ")
+        //saveMeal(meal: meal7)
+        let meal8 = Meal(name: "bbq pizza", price: "60LE", desc: "bbq pizza", image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bbq-pizza-318-1547837614.jpg", subCat_id: "-LhVBlUODj-uSvN8f5pU", id: " ")
+        //saveMeal(meal: meal8)
+        let meal9 = Meal(name: "pizza sedalia missouri", price: "60LE", desc: "pizza sedalia missour", image: "https://www.aljamila.com/sites/default/files/styles/ph2_1000_auto/public/pizza-sedalia-missouri.jpg", subCat_id: "-LhVBlUODj-uSvN8f5pU", id: " ")
+        //saveMeal(meal: meal9)        //-------------------------------------------
         //-------------------------------------------
         let addition1 = Additions(id: "", name: "ice cream", price: "20LE", image: "https://d2gk7xgygi98cy.cloudfront.net/4163-3-large.jpg", required: 1, desc: "ice cream", meal_id: "-LhVH4QTLxHEk257yslq")
         //saveAddition(addition: addition1)

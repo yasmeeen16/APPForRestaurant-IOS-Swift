@@ -82,6 +82,7 @@ class Meal{
         meal["name"] = self.name
         meal["price"] = self.price
         meal["image"] = self.image
+        meal["desc"] = self.desc
         meal["subCat_id"] = self.subCat_id
         return meal
     }
